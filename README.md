@@ -23,3 +23,13 @@ setcap cap_net_bind_service=+epi /opt/jdk1.8.0_152/bin/java
 echo "/opt/jdk1.8.0_152/lib/arm/jli" > /etc/ld.so.conf.d/java-libjli.conf
 ldconfig -v
 ```
+
+## Todos
+
+- Create udev rules for USB devices
+- Copy openhab service file, incl. defaults
+- Add openhab commands to sudoers
+- Rsync backup
+- Letsencrypt
+- nginx
+- mosquitto
