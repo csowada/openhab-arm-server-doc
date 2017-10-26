@@ -5,7 +5,7 @@ openHAB2 ARM ArchLinux Docs
 
 1. Download
 2. Extract to ``/opt/jdk1.8.0_xxx``
-3. Create symlink to ``/opt/jdk``
+3. Create symlink to ``ln -s /opt/jdk1.8.0_xxx /opt/jdk``
 4. Create symlink from ``ln -s /opt/jdk/bin/java /usr/bin/java``
 
 ## Install openHAB2
